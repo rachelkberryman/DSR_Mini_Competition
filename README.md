@@ -12,7 +12,7 @@ On the final day, participants will receive a test data CSV in the same format (
 
 The competition is scored based on a composite of predictive accuracy and reproducibility.
 
-## Predictive accuracy
+## Predictive accuracy
 
 Submissions are evaluated on the root mean square percentage error (RMSPE):
 
