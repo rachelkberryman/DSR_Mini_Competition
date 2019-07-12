@@ -1,7 +1,5 @@
 # Data Science Retreat July 2019 Mini Competition
 
-3 day mini competition for participants of .
-
 The mini-competition allows Data Science Retreat participants to complete a start to finish data science project. 
 
 Participants will receive training data (in CSV format) and a supplementary dataset.
