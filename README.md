@@ -1,25 +1,37 @@
-# DSR Mini Competition
-3-day Kaggle Competition for participants of Data Science Retreat.
+#  Data Science Retreat July 2019 Mini Competition
 
-## About the Mini Competition
+3-day mini competition for participants of Data Science Retreat.
+
 The mini-competition allows participants to complete a start to finish data science project. 
-Participants will recieve training data (in CSV format) and a supplementary dataset.
 
-The target variable is **Sales**. 
+Participants will receive training data (in CSV format) and a supplementary dataset.
+
 On the final day, participants will receive a test data CSV in the same format (same columns, etc) as the training CSV. 
 
-## Scoring Criteria:
-### 1. RMSPE 
-Submissions are evaluated on the Mean Squared Error. You can find the scikit-learn metric for easily calculating MSE [here](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_squared_error.html#sklearn.metrics.mean_squared_error). 
-The highest score (lowest MSE) will receive a score of 10 for the scoring criteria section.
-Each lower score (higher MSE) will receive a score of 10-(1 * number in ranking). If they are ranked second, score will be 10-2 = 8. 
+## Scoring Criteria
 
-### 2. Test Coverage
-(@Adam please fill in here)
+The competition is scored based on a composite of predictive accuracy and reproducibility.
 
-### 3.Reproducability
-Your final model and any feature engineering steps/pipelines may be in Python script form, or in a jupyter notebook.
-They should be in a repository that Rachel and Adam can access.
-If we can run your package/script/notebook with no errors, you will receive bonus points of __.
-For each error in running that must be corrected, bonus points will decrease by 1. 
-(@Adam please fill in here)
+### 1. Predictive accuracy
+
+Submissions are evaluated on the root mean square percentage error (RMSPE):
+
+![](./assets/rmspe.png)
+
+Scores will be ranked - the highest score (lowest RMSPE) will receive a score of 10 for the scoring criteria section.
+
+Each lower score (higher RMSPE) will receive a score of 10-(1 * number in ranking). If they are ranked second, score will be 10-2 = 8. 
+
+### 2. Reproducibility
+
+The entire model should be completely reproducible - to score this Adam/Rachel will clone your repository and follow the instructions as per the readme.  All teams start out with a score of 10  One point is deducted for each step not included in the repo.
+
+## Advice
+
+Commit early and often
+
+Visualize early
+
+Ensemble
+
+Look at the predictions your model is getting wrong - can you engineer a feature for those samples?
