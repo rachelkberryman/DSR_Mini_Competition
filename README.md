@@ -25,7 +25,7 @@ The competition is scored based on a composite of predictive accuracy and reprod
 
 ## Predictive accuracy
 
-The task is to predict tho `Sales` of a given store on a given day.
+The task is to predict the `Sales` of a given store on a given day.
 
 Submissions are evaluated on the root mean square percentage error (RMSPE):
 
