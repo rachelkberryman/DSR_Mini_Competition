@@ -8,6 +8,10 @@ Participants will receive training data (in CSV format) and a supplementary data
 
 On the final day, participants will receive a test data CSV in the same format (same columns, etc) as the training CSV. 
 
+## Scoring Criteria
+
+The competition is scored based on a composite of predictive accuracy and reproducibility.
+
 ## Predictive accuracy
 
 Submissions are evaluated on the root mean square percentage error (RMSPE):
@@ -23,10 +27,6 @@ Each lower score (higher RMSPE) will receive a score of 10-(1 * number in rankin
 ## Reproducibility
 
 The entire model should be completely reproducible - to score this Adam/Rachel will clone your repository and follow the instructions as per the readme.  All teams start out with a score of 10.  One point is deducted for each step not included in the repo.
-
-## Scoring Criteria
-
-The competition is scored based on a composite of predictive accuracy and reproducibility.
 
 ## Advice
 
